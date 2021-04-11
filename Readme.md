@@ -1,5 +1,7 @@
 # SDLC Activity Based Learning
 
+# Hangman Game
+
 Visit [Pages for Report -optional](using github.io option)
 
 Build | Code Quality | Unity | [Git Inspector](using github.io option)
