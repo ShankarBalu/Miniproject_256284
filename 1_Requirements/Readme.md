@@ -10,9 +10,10 @@
 3. The player is asked for a letter. If the letter is present in the word it is written in the respective positions above the blank lines. If the letter is not present, then the sketch of a man hanging is started.
 4. The process continues till all the letters of the word has been guessed or till the sketch is completed.
 5. The user wins if the word is completed before the complete sketch is drawn.
-### Sketch of hangman
+### Sketch of hangman (for 5 chances)
 (https://en.wikipedia.org/wiki/Hangman_(game)#:~:text=Hangman%20is%20a%20paper%20and,a%20certain%20number%20of%20guesses.)
-![Guess 1](https://github.com/ShankarBalu/Stepin_256284/blob/main/Hangman-0.png) ![Guess 1](https://github.com/ShankarBalu/Stepin_256284/blob/main/Hangman-0.png) 
+![Guess 1](https://github.com/ShankarBalu/Stepin_256284/blob/main/Hangman-0.png) ![Guess 2](https://github.com/ShankarBalu/Stepin_256284/blob/main/Hangman-1.png) ![Guess 3](https://github.com/ShankarBalu/Stepin_256284/blob/main/Hangman-2.png) 
+![Guess 2](https://github.com/ShankarBalu/Stepin_256284/blob/main/Hangman-3.png)  ![Guess 2](https://github.com/ShankarBalu/Stepin_256284/blob/main/Hangman-4.png) 
 ## Cost and Features
 ![Description](Link to Pic)
 -- Content 
