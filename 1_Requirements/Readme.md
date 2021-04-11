@@ -12,7 +12,7 @@
 5. The user wins if the word is completed before the complete sketch is drawn.
 ### Sketch of hangman
 (https://en.wikipedia.org/wiki/Hangman_(game)#:~:text=Hangman%20is%20a%20paper%20and,a%20certain%20number%20of%20guesses.)
-![Guess 1](https://github.com/ShankarBalu/Stepin_256284/blob/main/Hangman-0.png "Guess 1")
+![Guess 1](https://github.com/ShankarBalu/Stepin_256284/blob/main/Hangman-0.png) ![Guess 1](https://github.com/ShankarBalu/Stepin_256284/blob/main/Hangman-0.png) 
 ## Cost and Features
 ![Description](Link to Pic)
 -- Content 
