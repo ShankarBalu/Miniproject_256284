@@ -20,7 +20,7 @@ Folder             | Description
 ## Contributors List and Summary
 
 SF Id. |  Name   |    Features    | Issuess Raised |Issues Resolved|No Test Cases|Test Case Pass
--------|---------|----------------|----------------|---------------|-------------|--------------
+-------|--------------|----------------|----------------|---------------|-------------|--------------
 `256284` | T.M.B.Shankar Balu  | Feature A, B etc    | X No     | X No   |X No   |X No     
 
 ## Challenges Faced and How Was It Overcome
