@@ -1,10 +1,11 @@
 # Requirements
 ## Introduction
- --- TBD 
+ --- Hangman is a word guessing game played by two players. One player thinks of a word and the other player tries to guess it by suggesting letters within a certain number of guesses. The name is given because of the way in which the game progress is shown. The game process is shown by a sketch of a man being hanged.
 
-## Research
+## How the game is played?
+(https://www.wikihow.com/Play-Hangman)
 ![Description](Link to Pic)
--- Content 
+..* A word is chosen first for the player to guess.
 ## Cost and Features
 ![Description](Link to Pic)
 -- Content 
