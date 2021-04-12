@@ -32,23 +32,23 @@ The user wins when he guesses the word correctly within 5 chances. The user lose
 
 ## Who:
 
-**TBD**
+This game can be played across all age groups. Kids will have a special liking towards this game.
 
 ## What:
 
-**TBD**
+Hangman is a word guessing game in which the user is given a limited number of choices to guess and the progress is symbolically shown with the sketch of a man being hanged.
 
 ## When:
 
-**TBD**
+This game can be played when a person is stressed as a stress buster or for fun. This game can also be viewed as a fun way to improve vocabulary.
 
 ## Where:
 
-**TBD**
+This game can be played across all platforms and can even be used as an educational tool for improving vocabulary.
 
 ## How:
 
-**TBD**
+Some words are stored in a text file. When the user wants to play, a word is chosen from the set of words and the user has to guess the word by telling a letter from the alphabet each time. The user is given five chances to guess the word correctly.
 
 # Detail requirements
 ## High Level Requirements:
