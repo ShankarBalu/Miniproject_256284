@@ -15,12 +15,18 @@
 ![Guess 1](https://github.com/ShankarBalu/Stepin_256284/blob/main/Hangman-0.png) ![Guess 2](https://github.com/ShankarBalu/Stepin_256284/blob/main/Hangman-1.png) ![Guess 3](https://github.com/ShankarBalu/Stepin_256284/blob/main/Hangman-2.png) 
 ![Guess 2](https://github.com/ShankarBalu/Stepin_256284/blob/main/Hangman-3.png)  ![Guess 2](https://github.com/ShankarBalu/Stepin_256284/blob/main/Hangman-4.png) 
 ## Cost and Features
-![Description](Link to Pic)
--- Content 
+1. The sketch of the hangman is shown after every wrong guess.
+2. The user gets a random word to guess from a given set of words.
+3. The incomplete word is shown with blanks in the incomplete parts of the word.
+4. The user gets five chances to guess the word.
 ## Defining Our System
-    -- TBD
+A set of words is present in a text file. When the user plays the game, a random word is retrieved from the file as the word to be guessed by the user. When the user gives a letter of the alphabet to guess,
+* The word is displayed with the letter placed in it in the respective positions if the letter is present in the word.
+* If the letter is not present in the word, then the sketch of the hangman (the state of the sketch is shown as per the chances) is shown.
+
+The user wins when he guesses the word correctly within 5 chances. The user loses the game when the sketch of the hangman is complete(after exhausting the chances).
 ## SWOT ANALYSIS
-![SWOT-Sample](Link to Pic)
+![SWOT-Sample](https://github.com/ShankarBalu/Stepin_256284/blob/main/Swot%20Analysis.png)
 
 # 4W&#39;s and 1&#39;H
 
