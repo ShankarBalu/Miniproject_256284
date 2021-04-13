@@ -1,10 +1,10 @@
 /** 
-* @file sketching_operations.h
-* Printing the sketch of hangman as per the chances
+* @file hangman_operations.h
+* Contains the operations used in hangman game
 *
 */
-#ifndef __SKETCHING_OPERATIONS_H__
-#define __SKETCHING_OPERATIONS_H__
+#ifndef __HANGMAN_OPERATIONS_H__
+#define __HANGMAN_OPERATIONS_H__
 
 /**
  * @brief This is a function which prints the sketch for the first wrong guess when called
@@ -41,5 +41,14 @@ int sketchd();
  * @return An integer value to be used for testing the function
  */
 int sketche();
+
+/**
+ * @brief This is a function to retrieve a word from the variable.
+ * 
+ * @param n (nth word to be retrieved from the file)
+ * @param word (the pointer to the string in which the word is to be stored)
+ * @return char* 
+ */
+char* retrieve_word(int n,char* word);
 
 #endif  /* #define __SKETCHING_OPERATIONS_H__ */

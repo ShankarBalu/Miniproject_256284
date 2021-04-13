@@ -1,5 +1,5 @@
 /**
- * @file calculator_operations.c
+ * @file hangman_operations.c
  * @author Shankar Balu 
  * @brief  Function definitions for sketching operations
  * @version 0.1
@@ -8,7 +8,8 @@
  * @copyright Copyright (c) 2021
  * 
  */
-#include <sketching_operations.h>
+#include <hangman_operations.h>
+#include<stdio.h>
 
 int sketcha()
 {
@@ -68,4 +69,15 @@ int sketche()
     printf(" |        / \\ \n");
     printf("_|_____________\n");
     return 5;
+}
+
+char* retrieve_word(int n,char* word)
+{
+    FILE *fptr;
+    fptr=fopen("words.txt","r");
+    for(int i=0;i<n;i++)
+    {
+        fgets(word,20,fptr);
+    }
+    return word;
 }
