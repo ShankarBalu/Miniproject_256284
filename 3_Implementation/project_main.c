@@ -2,8 +2,11 @@
 #include<stdio.h>
 #include<stdlib.h>
 #include<string.h>
+#include<ctype.h>
 
 int chances=0;
+
+char* update_word(char* temp_word,char* word,char lguess);
 
 int main()
 {
@@ -30,9 +33,39 @@ int main()
    {
       printf("Enter a letter to guess the word\n");
       scanf("%c",&lguess);
-      
+      if(isalpha(lguess)==0)
+      {
+         continue;
+      }
+      strcpy(temp_word,update_word(temp_word,word,lguess));
+      if(strcmp(temp_word,word)==0)
+      {
+         printf("You have guessed the word correctly\n");
+         return 0;
+      }
    }
+   printf("You have lost all the chances. The correct word is %s",word);
+   return 0;
 }
 
-
+char* update_word(char* temp_word,char* word,char lguess)
+{   
+    int count=0;
+    for(int i=0;i<strlen(word);i++)
+    {
+       if(word[i]==lguess)
+       {
+          temp_word[i]=lguess;
+          count++;
+       }
+    }
+    printf("The current progress in the word: %s\n",temp_word);
+    if(count==0)
+    {
+       chances--;
+       (fparr[chances])();
+       printf("You are left with %d chances\n",chances);
+    }
+    return temp_word;
+}
      
