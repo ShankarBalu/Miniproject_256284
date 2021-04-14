@@ -10,6 +10,7 @@
  */
 #include <hangman_operations.h>
 #include<stdio.h>
+#include<string.h>
 
 int sketcha()
 {
@@ -79,5 +80,6 @@ char* retrieve_word(int n,char* word)
     {
         fgets(word,20,fptr);
     }
+    word[strlen(word)-1]='\0';
     return word;
 }

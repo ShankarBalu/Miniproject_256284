@@ -23,9 +23,6 @@ int main()
    srand(time(0));
    n=(rand()%23)+1;
    strcpy(word,retrieve_word(n,word));
-   printf("The word is %s",word);
-   word[strlen(word)-1]='\0';
-   printf("%d %s\n",strlen(word),word);
    for(int i=0;i<strlen(word);i++)
    {
       temp_word[i]='_';
@@ -33,18 +30,19 @@ int main()
    temp_word[strlen(word)]='\0';
    
    while(chances<5)
-   {
+   {  
+      printf("%s\n",temp_word);
       printf("Enter a letter to guess the word: ");
       scanf(" %c",&lguess);
       if(isalpha(lguess)==0)
       {
-         continue;
          printf("Enter a valid letter from the alphabet\n");
+         continue;
       }
       strcpy(temp_word,update_word(temp_word,word,lguess));
       if(strcmp(temp_word,word)==0)
       {
-         printf("You have guessed the word correctly\n");
+         printf("Congratulations! You have guessed the word correctly\n");
          return 0;
       }
    }

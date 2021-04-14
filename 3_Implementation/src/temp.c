@@ -1,6 +1,7 @@
 #include<stdio.h>
 #include<stdlib.h>
-/*
+#include<string.h>
+
 char* retrieve_word(int n,char* word)
 {
     FILE *fptr;
@@ -9,18 +10,17 @@ char* retrieve_word(int n,char* word)
     {
         fgets(word,20,fptr);
     }
+    word[strlen(word)-1]='\0';
     return word;
 }
 int main()
 {
   char word[20];
   int n;
-  printf("Enter the nth word");
-  scanf("%d",&n);
-  strcpy(word,retrieve_word(n,word));
-  printf("%s",word);
+  strcpy(word,retrieve_word(19,word));
+  printf("%d",strcmp("second",word));
 }
-*/
+/*
 int main()
 {
    srand(time(0));
@@ -30,3 +30,4 @@ int main()
    }
    return 0;
 }
+*/
