@@ -74,11 +74,11 @@ int sketche()
 
 char* retrieve_word(int n,char* word)
 {
-    FILE *fptr=NULL;
+    FILE *fptr;
     fptr=fopen("words.txt","r");
     for(int i=0;i<n;i++)
-    {
-        fgets(word,20,fptr);
+    {   
+            fgets(word,20,fptr);
     }
     word[strlen(word)-1]='\0';
     return word;
