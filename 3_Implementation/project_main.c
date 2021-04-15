@@ -25,7 +25,7 @@ int main()
    n=(rand()%23)+1;
    strcpy(word,retrieve_word(n,word));
 
-   temp_word=malloc((strlen(word)+1)*sizeof(char));
+   temp_word=(char*)malloc((strlen(word)+2)*sizeof(char));
    for(int i=0;i<strlen(word);i++)
    {
       temp_word[i]='_';
