@@ -46,6 +46,7 @@ int main()
       if(strcmp(temp_word,word)==0)
       {
          printf("Congratulations! You have guessed the word correctly\n");
+         free(temp_word);
          return 0;
       }
    }
