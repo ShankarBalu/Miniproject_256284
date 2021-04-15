@@ -6,7 +6,6 @@
 #include <hangman_operations.h>
 #define PROJECT_NAME    "Hangman"
 
-char word[20];
 
 /* Prototypes for all the test functions */
 void test_sketcha(void);
@@ -59,6 +58,7 @@ void test_sketche(void) {
 }
 
 void test_retrieve_word(void){
+  char word[20];
   TEST_ASSERT_EQUAL(0,strcmp("second",retrieve_word(19,word)));
   TEST_ASSERT_EQUAL(0,strcmp("father",retrieve_word(10,word)));
   TEST_ASSERT_EQUAL(0,strcmp("fantastic",retrieve_word(21,word)));
