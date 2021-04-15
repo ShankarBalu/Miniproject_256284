@@ -14,7 +14,7 @@ int main()
 {
    int n;
    char lguess,word[20];
-   char* temp_word;
+   char* temp_word =NULL;
 
    fparr[0]=sketcha;
    fparr[1]=sketchb;
