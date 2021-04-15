@@ -1,10 +1,9 @@
 #include "unity.h"
-#include <hangman_operations.h>
+#include "hangman_operations.h"
 #include<string.h>
 
 /* Modify these two lines according to the project */
-#include <hangman_operations.h>
-#define PROJECT_NAME    "Hangman"
+#define PROJECT_NAME  "Hangman"
 
 
 /* Prototypes for all the test functions */
