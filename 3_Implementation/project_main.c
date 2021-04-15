@@ -65,7 +65,7 @@ char* update_word(char* temp_word,char* word,char lguess)
     printf("The current progress in the word: %s\n",temp_word);
     if(count==0)
     {
-       fparr[chances]();
+       (fparr[chances])();
        chances++;
        printf("You have more %d chances\n",(5-chances));
     }
