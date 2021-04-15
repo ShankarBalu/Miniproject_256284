@@ -7,14 +7,13 @@
 int chances=0;
 
 char* update_word(char* temp_word,char* word,char lguess);
-//int (*fparr[5])();
+int (*fparr[5])();
 
 
 int main()
 {
    int n;
    char lguess,word[20],temp_word[20];
-   int (*fparr[5])();
 
    fparr[0]=sketcha;
    fparr[1]=sketchb;
@@ -41,24 +40,7 @@ int main()
          printf("Enter a valid letter from the alphabet\n");
          continue;
       }
-   {
-      int count=0;
-      for(int i=0;i<strlen(word);i++)
-    {
-       if(word[i]==lguess)
-       {
-          temp_word[i]=lguess;
-          count++;
-       }
-    }
-    printf("The current progress in the word: %s\n",temp_word);
-    if(count==0)
-    {
-       (fparr[chances])();
-       chances++;
-       printf("You have more %d chances\n",(5-chances));
-    }
-   }
+      strcpy(temp_word,update_word(temp_word,word,lguess));
       if(strcmp(temp_word,word)==0)
       {
          printf("Congratulations! You have guessed the word correctly\n");
@@ -69,7 +51,7 @@ int main()
    return 0;
 }
 
-/*char* update_word(char* temp_word,char* word,char lguess)
+char* update_word(char* temp_word,char* word,char lguess)
 {   
     int count=0;
     for(int i=0;i<strlen(word);i++)
@@ -89,5 +71,4 @@ int main()
     }
     return temp_word;
 }
- */
     
