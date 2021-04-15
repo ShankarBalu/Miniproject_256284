@@ -74,7 +74,7 @@ int sketche()
 
 char* retrieve_word(int n,char* word)
 {
-    FILE *fptr;
+    FILE *fptr=NULL;
     fptr=fopen("words.txt","r");
     for(int i=0;i<n;i++)
     {
