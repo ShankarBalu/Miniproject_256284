@@ -13,7 +13,8 @@ int (*fparr[5])();
 int main()
 {
    int n;
-   char lguess,word[20],temp_word[20];
+   char lguess,word[20];
+   char* temp_word;
 
    fparr[0]=sketcha;
    fparr[1]=sketchb;
@@ -23,6 +24,8 @@ int main()
    srand(time(0));
    n=(rand()%23)+1;
    strcpy(word,retrieve_word(n,word));
+
+   temp_word=malloc((strlen(word)+1)*sizeof(char));
    for(int i=0;i<strlen(word);i++)
    {
       temp_word[i]='_';
@@ -43,10 +46,12 @@ int main()
       if(strcmp(temp_word,word)==0)
       {
          printf("Congratulations! You have guessed the word correctly\n");
+         free(temp_word);
          return 0;
       }
    }
    printf("You have lost all the chances. The correct word is %s",word);
+   free(temp_word);
    return 0;
 }
 
