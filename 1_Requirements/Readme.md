@@ -54,17 +54,17 @@ Some words are stored in a text file. When the user wants to play, a word is cho
 ## High Level Requirements:
 ID   | Description                                    | Status
 -----|------------------------------------------------|---------
-HR01 | To be able to set a word for guessing|
-HR02 | Correct progress of the game with the sketch appearing appropriately|
-HR03 | Game must end appropriately and the result should be displayed|
+HR01 | To be able to set a word for guessing| Implemented
+HR02 | Correct progress of the game with the sketch appearing appropriately| Implemented
+HR03 | Game must end appropriately and the result should be displayed| Implemented
 
 
 ##  Low level Requirements:
 ID  | Description                   | HLR ID | Status 
  ----|-------------------------------|--------|---------------------------
- LR01| To be able to retrieve a word from the text file|HR01|
- LR02| To be able to display the incomplete word with blank spaces after every guess|HR02|
- LR03| To be able to display the appropriate sketch after every wrong guess|HR02|
- LR04| To check whether a letter from alphabet is given from user|HR02|
- LR05| To indicate that the user has won if the word is guessed within 5 incorrect guesses|HR03|
- LR06| To indicate that the user has lost if the word is not guesses within 5 incorrect guesses|HR03|
+ LR01| To be able to retrieve a word from the text file|HR01| Implemented
+ LR02| To be able to display the incomplete word with blank spaces after every guess|HR02| Implemented
+ LR03| To be able to display the appropriate sketch after every wrong guess|HR02| Implemented
+ LR04| To check whether a letter from alphabet is given from user|HR02| Implemented
+ LR05| To indicate that the user has won if the word is guessed within 5 incorrect guesses|HR03| Implemented
+ LR06| To indicate that the user has lost if the word is not guesses within 5 incorrect guesses|HR03| Implemented
