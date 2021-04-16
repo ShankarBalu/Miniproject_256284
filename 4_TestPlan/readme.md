@@ -4,7 +4,7 @@
 
 | **Test ID** | **Description**                                              | **Exp I/P** | **Exp O/P** | **Actual Out** |**Type Of Test**  |    
 |-------------|--------------------------------------------------------------|------------|-------------|----------------|------------------|
-|  H_01       |To set a word for guessing randomly but for test purposes, a number was given (the number denotes the nth word in the text file) and checked with three numbers (individually) (the function checked was char* retrieve_word(int n,char* word))| 19,21,10 |"second","fantastic","father"|"second","fantastic","father"|Requirement based |
+|  H_01       |To set a word for guessing randomly from a text file consisting of some words but for test purposes, a number was given (the number denotes the nth word in the text file) and checked with three numbers (individually) (the function checked was char* retrieve_word(int n,char* word))| 19,21,10 |"second","fantastic","father"|"second","fantastic","father"|Requirement based |
 |  H_02       |--------------------------------------------------------------|  ------------|-------------|----------------|Scenario based    |
 |  H_03       |--------------------------------------------------------------|  ------------|-------------|----------------|Boundary based    |
 
