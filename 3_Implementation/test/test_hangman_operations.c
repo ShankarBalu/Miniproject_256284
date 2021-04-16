@@ -1,6 +1,7 @@
 #include "unity.h"
 #include "hangman_operations.h"
 #include<string.h>
+#include<stdio.h>
 
 /* Modify these two lines according to the project */
 #define PROJECT_NAME  "Hangman"
@@ -59,6 +60,9 @@ void test_sketche(void) {
 void test_retrieve_word(void){
   char word[20];
   TEST_ASSERT_EQUAL(0,strcmp("second",retrieve_word(19,word)));
+  printf("%s\n",word);
   TEST_ASSERT_EQUAL(0,strcmp("father",retrieve_word(10,word)));
+  printf("%s\n",word);
   TEST_ASSERT_EQUAL(0,strcmp("fantastic",retrieve_word(21,word)));
+  printf("%s\n",word);
 }
