@@ -76,10 +76,6 @@ char* retrieve_word(int n,char* word)
 {
     FILE *fptr;
     fptr=fopen("./words.txt","r");
-    if(fptr==NULL)
-    {
-        return "error";
-    }
     for(int i=0;i<n;i++)
     {   
             fgets(word,20,fptr);
