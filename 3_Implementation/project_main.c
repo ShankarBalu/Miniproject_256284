@@ -6,8 +6,17 @@
 
 int chances=0;
 
-char* update_word(char* temp_word,char* word,char lguess);
-int (*fparr[5])();
+/**
+ * @brief This is to update the word as per the guess of the user
+ * 
+ * @param temp_word A word to update the progress and blanks to indicate the status of the letter
+ * @param word The word that has to be guessed by the user
+ * @param lguess The letter that the user guesses per attempt
+ * @return char* Return the updated word
+ */
+
+char* update_word(char* temp_word,char* word,char lguess);           
+int (*fparr[5])();                                                   // Using array of function pointers
 
 
 int main()
@@ -25,7 +34,7 @@ int main()
    n=(rand()%23)+1;
    strcpy(word,retrieve_word(n,word));
 
-   temp_word=malloc((strlen(word)+1)*sizeof(char));
+   temp_word=malloc((strlen(word)+1)*sizeof(char));                   //Using dynamic memory allocation
 
    for(int i=0;i<strlen(word);i++)
    {
